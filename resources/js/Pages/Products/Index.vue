@@ -6,24 +6,35 @@
                     Product Lists
                 </h2>
             </template>
-        <div v-for="product in products" :key="product.id" class="flex justify-center">
-            <div class="bg-white m-3 h-auto w-56">
-                <h3 class="text-2xl text-gray-600">Product: {{product.name}}</h3>
-                <h3 class="text-2xl text-gray-600">Description: {{product.description}}</h3>
-                <h3 class="text-2xl text-gray-600">Price: {{product.price}}</h3>
+            <div v-if="products == ''" class="flex justify-center mt-10 sm:w-full md:w-auto">
+                <h3 class="text-xl text-bold shadow-xl bg-white h-auto p-10 rounded-lg">Sorry 😢, No Products are there in Store currently...</h3>
             </div>
-        </div>
+            <div v-else>
+                <div v-for="product in products" :key="product.id">
+                    <div class="flex justify-center items-center">
+                        <ProductLayout :product="product"/>
+                    </div>
+                </div>
+            </div>
+
         </app-layout>
     </div>
 </template>
 
 <script>
 import AppLayout from "../../Layouts/AppLayout";'../../Layouts/AppLayout'
+import ProductLayout from "./ProductLayout";
 export default {
 props: ['products'],
 components: {
-    AppLayout
-    }
+    AppLayout,
+    ProductLayout
+    },
+    // data() {
+    // return{
+    //     products: this.products
+    // }
+    // }
 }
 </script>
 

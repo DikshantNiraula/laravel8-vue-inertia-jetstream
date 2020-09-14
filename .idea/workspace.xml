@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbd9ca6-fc89-4fbf-b68a-306d9a1d8cd3" name="Default Changelist" comment="" />
+    <list default="true" id="bbbd9ca6-fc89-4fbf-b68a-306d9a1d8cd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Products/Edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/Products/ProductLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/AppLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Products/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Products/Index.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +43,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -173,12 +202,24 @@
       <workItem from="1599881786513" duration="2792000" />
       <workItem from="1599989267755" duration="1548000" />
       <workItem from="1600002980088" duration="5161000" />
-      <workItem from="1600010607074" duration="6790000" />
+      <workItem from="1600010607074" duration="7286000" />
+      <workItem from="1600057366392" duration="7012000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="367" width="610" height="301" key="#Composer" timestamp="1599882182085">
@@ -206,5 +247,9 @@
       <screen x="0" y="0" width="1920" height="1036" />
     </state>
     <state x="643" y="370" width="834" height="333" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1036@0.0.1920.1036" timestamp="1599883122116" />
+    <state x="539" y="5" key="search.everywhere.popup" timestamp="1600058353776">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600058353776" />
   </component>
 </project>

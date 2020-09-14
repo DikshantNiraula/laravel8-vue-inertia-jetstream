@@ -26,4 +26,15 @@ class ProductController extends Controller
         return redirect('/product');
 
     }
+    public function edit()
+    {
+        return Inertia::render('Products/Edit');
+    }
+
+    public function destroy($id)
+    {
+        $product = Product::findOrFail($id);
+        $product->delete();
+        return redirect('/product');
+    }
 }
